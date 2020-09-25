@@ -10,4 +10,23 @@ public class AnimationController : MonoBehaviour
     {
         player[0].SetBool("idle", true);
     }
+
+    public void grabIn()
+    {
+        player[1].SetBool("Grab", true);
+    }
+
+    public void grabOut()
+    {
+        player[1].SetBool("Grab", false);
+    }
+
+    public void cutIn()
+    {
+        player[2].SetBool("CutLoop",true);
+    }
+    public void cutOut()
+    {
+        player[2].SetBool("CutLoop", false);
+    }
 }
