@@ -23,10 +23,12 @@ public class AnimationController : MonoBehaviour
 
     public void cutIn()
     {
-        player[2].SetBool("CutLoop",true);
+        //player[2].SetBool("CutLoop",true);
+        player[2].enabled = true;
     }
     public void cutOut()
     {
-        player[2].SetBool("CutLoop", false);
+        //player[2].SetBool("CutLoop", false);
+        player[2].enabled = false;
     }
 }
