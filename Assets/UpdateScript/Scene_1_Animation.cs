@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class scene1_Animation : MonoBehaviour
+public class Scene_1_Animation : MonoBehaviour
 {
     public Animator[] player;
     public TextMeshProUGUI text;
